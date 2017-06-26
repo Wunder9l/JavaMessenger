@@ -29,4 +29,11 @@ public class CreateUserMessage extends Message {
         this.pass = pass;
     }
 
+    @Override
+    public String toString() {
+        return "CreateUserMessage{" +
+                "name='" + name + '\'' +
+                ", pass='" + pass + '\'' +
+                '}';
+    }
 }

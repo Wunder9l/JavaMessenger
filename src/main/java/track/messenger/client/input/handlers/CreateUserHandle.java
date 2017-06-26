@@ -12,16 +12,14 @@ public class CreateUserHandle extends InputHandle {
     public Message handleInput(String line, SessionClient sessionClient) {
         if (isAuthorized(sessionClient)) {
             log.error("You are authorized need to exit from current account (type /exit)");
-        } else {
+        } else if (null != line) {
             String[] tokens = line.split(" ");
             if (tokens.length == 2) {
                 return new CreateUserMessage(tokens[0], tokens[1]);
-            } else {
-                log.error("To create an account you should enter exactly 3 tokens: " +
-                                "/createuser {username} {password}, {} given",
-                        tokens.length);
             }
         }
+        log.error("To create an account you should enter exactly 3 tokens: " +
+                        "/createuser {username} {password}");
         return null;
     }
 }

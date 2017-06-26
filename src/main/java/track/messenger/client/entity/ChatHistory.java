@@ -70,8 +70,11 @@ public class ChatHistory {
     public void updateChatHistory(ChatHistoryResultMessage resultMessage) throws InvalidUserId {
         this.members = resultMessage.getMembers();
         this.totalMessages = resultMessage.getTotalMessages();
-        for (ChatMessage message : resultMessage.getMessages()) {
-            addMessage(message);
+        List<ChatMessage> messageList = resultMessage.getMessages();
+        if (null != messageList) {
+            for (ChatMessage message : messageList) {
+                addMessage(message);
+            }
         }
     }
 

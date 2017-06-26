@@ -91,7 +91,7 @@ public class User {
         if ((null != chatIds) && (chatIds.size() > 0)) {
             for (Long chatId :
                     chatIds) {
-                System.out.println(String.format("Chat id: %d, chat name: %s", chatId));
+                System.out.println(String.format("Chat id: %d", chatId));
                 if (chats.containsKey(chatId)) {
                     System.out.println(chats.get(chatId).toString());
                 }

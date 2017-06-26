@@ -2,13 +2,14 @@ package track.messenger.messages;
 
 import track.messenger.client.entity.ChatMessage;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
 /**
  * Created by artem on 21.06.17.
  */
-public class ChatHistoryResultMessage extends Message {
+public class ChatHistoryResultMessage extends Message implements Serializable {
     Long chatId;
     Long totalMessages;
     Map<Long, String> members;
@@ -21,6 +22,9 @@ public class ChatHistoryResultMessage extends Message {
         this.totalMessages = totalMessages;
         this.members = members;
         this.messages = messages;
+    }
+
+    public ChatHistoryResultMessage() {
     }
 
     public Long getChatId() {
@@ -53,5 +57,15 @@ public class ChatHistoryResultMessage extends Message {
 
     public void setMessages(List<ChatMessage> messages) {
         this.messages = messages;
+    }
+
+    @Override
+    public String toString() {
+        return "ChatHistoryResultMessage{" +
+                "chatId=" + chatId +
+                ", totalMessages=" + totalMessages +
+                ", members=" + members +
+                ", messages=" + messages +
+                '}';
     }
 }

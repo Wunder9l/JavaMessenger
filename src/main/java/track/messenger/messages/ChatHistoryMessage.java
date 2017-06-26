@@ -70,4 +70,15 @@ public class ChatHistoryMessage extends Message {
     public void setTotalMessages(int totalMessages) {
         this.totalMessages = totalMessages;
     }
+
+    @Override
+    public String toString() {
+        return "ChatHistoryMessage{" +
+                "startIndex=" + startIndex +
+                ", endIndex=" + endIndex +
+                ", preferredNumberOfLastMessages=" + preferredNumberOfLastMessages +
+                ", totalMessages=" + totalMessages +
+                ", chatId=" + chatId +
+                '}';
+    }
 }

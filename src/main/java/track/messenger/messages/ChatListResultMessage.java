@@ -21,4 +21,11 @@ public class ChatListResultMessage extends Message {
     public void setChatIds(List<Long> chatIds) {
         this.chatIds = chatIds;
     }
+
+    @Override
+    public String toString() {
+        return "ChatListResultMessage{" +
+                "chatIds=" + chatIds +
+                '}';
+    }
 }

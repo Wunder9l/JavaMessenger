@@ -1,5 +1,7 @@
 package track.messenger.messages;
 
+import java.util.Arrays;
+
 /**
  * Created by artem on 23.06.17.
  */
@@ -28,5 +30,13 @@ public class CreateChatMessage extends Message {
 
     public void setChatName(String chatName) {
         this.chatName = chatName;
+    }
+
+    @Override
+    public String toString() {
+        return "CreateChatMessage{" +
+                "usernames=" + Arrays.toString(usernames) +
+                ", chatName='" + chatName + '\'' +
+                '}';
     }
 }

@@ -29,4 +29,12 @@ public class LeaveChatMessage extends Message {
     public void setChatId(Long chatId) {
         this.chatId = chatId;
     }
+
+    @Override
+    public String toString() {
+        return "LeaveChatMessage{" +
+                "chatName='" + chatName + '\'' +
+                ", chatId=" + chatId +
+                '}';
+    }
 }

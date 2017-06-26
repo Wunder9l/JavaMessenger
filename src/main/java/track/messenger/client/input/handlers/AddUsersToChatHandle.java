@@ -12,7 +12,7 @@ import track.messenger.utils.Validator;
 public class AddUsersToChatHandle extends InputHandle {
     @Override
     public Message handleInput(String line, SessionClient sessionClient) {
-        if (isAuthorized(sessionClient)) {
+        if (isAuthorized(sessionClient) && null != line) {
             String[] tokens = line.split(" ");
             if (tokens.length == 2) {
                 Long chatId;

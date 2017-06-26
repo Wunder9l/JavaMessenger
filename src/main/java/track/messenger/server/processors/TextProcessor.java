@@ -32,7 +32,7 @@ public class TextProcessor extends Processor {
                 if (null != dbMessage) {
                     outMessages.addAll(generateUpdateMessages(
                             userEntity.getId(),
-                            chatEntity,
+                            chatService.get(inputMessage.getChatId()), // Update chatEntity (with new message)
                             dbMessage,
                             userIdToSocketMap));
                     outMessages.add(0, successMessage(userEntity.getId(), userIdToSocketMap));
@@ -83,17 +83,14 @@ public class TextProcessor extends Processor {
                                            MessageEntity messageEntity) {
         Map<Long, String> members = chatEntity.getUserEntities().stream()
                 .collect(Collectors.toMap(UserEntity::getId, UserEntity::getUsername));
-        int index = chatEntity.getMessageEntities().size();
-        Long totalMessages = (long) index + 1;
-        List<ChatMessage> messageList = new ArrayList<ChatMessage>() {
-            {
-                add(new ChatMessage(
+        Long totalMessages = (long) chatEntity.getMessageEntities().size();
+        int index = (int) (totalMessages - 1);
+        List<ChatMessage> messageList = new ArrayList<>();
+        messageList.add(new ChatMessage(
                         messageEntity.getDatetime(),
                         authorId,
                         index,
                         messageEntity.getMessage()));
-            }
-        };
         return new ChatHistoryResultMessage(
                 0L,
                 chatEntity.getId(),
