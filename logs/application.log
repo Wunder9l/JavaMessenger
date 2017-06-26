@@ -1,0 +1,104 @@
+2017-06-26 23:29:24 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-06-26 23:29:24 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2017-06-26 23:29:24 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-06-26 23:29:24 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-06-26 23:29:26 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-06-26 23:29:26 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-06-26 23:29:26 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-06-26 23:29:26 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/JavaMessenger]
+2017-06-26 23:29:26 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=messenger_server, password=****, autocommit=true, release_mode=auto}
+2017-06-26 23:29:27 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-06-26 23:29:27 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-06-26 23:29:27 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/JavaMessenger]
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=messenger_server, password=****, autocommit=true, release_mode=auto}
+2017-06-26 23:29:29 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-06-26 23:29:29 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-06-26 23:29:29 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-06-26 23:29:29 WARN  EntityManagerFactoryRegistry:80 - HHH000436: Entity manager factory name (JavaMessenger) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/JavaMessenger]
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=messenger_server, password=****, autocommit=true, release_mode=auto}
+2017-06-26 23:29:29 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-06-26 23:29:29 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-06-26 23:29:29 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-06-26 23:29:29 WARN  EntityManagerFactoryRegistry:80 - HHH000436: Entity manager factory name (JavaMessenger) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/JavaMessenger]
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=messenger_server, password=****, autocommit=true, release_mode=auto}
+2017-06-26 23:29:29 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-06-26 23:29:29 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-06-26 23:29:29 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-06-26 23:29:29 WARN  EntityManagerFactoryRegistry:80 - HHH000436: Entity manager factory name (JavaMessenger) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/JavaMessenger]
+2017-06-26 23:29:29 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=messenger_server, password=****, autocommit=true, release_mode=auto}
+2017-06-26 23:29:29 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-06-26 23:29:29 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-06-26 23:29:29 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-06-26 23:29:29 WARN  EntityManagerFactoryRegistry:80 - HHH000436: Entity manager factory name (JavaMessenger) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/JavaMessenger]
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=messenger_server, password=****, autocommit=true, release_mode=auto}
+2017-06-26 23:29:30 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-06-26 23:29:30 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-06-26 23:29:30 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-06-26 23:29:30 WARN  EntityManagerFactoryRegistry:80 - HHH000436: Entity manager factory name (JavaMessenger) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/JavaMessenger]
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=messenger_server, password=****, autocommit=true, release_mode=auto}
+2017-06-26 23:29:30 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-06-26 23:29:30 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-06-26 23:29:30 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-06-26 23:29:30 WARN  EntityManagerFactoryRegistry:80 - HHH000436: Entity manager factory name (JavaMessenger) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/JavaMessenger]
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=messenger_server, password=****, autocommit=true, release_mode=auto}
+2017-06-26 23:29:30 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-06-26 23:29:30 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-06-26 23:29:30 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-06-26 23:29:30 WARN  EntityManagerFactoryRegistry:80 - HHH000436: Entity manager factory name (JavaMessenger) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/JavaMessenger]
+2017-06-26 23:29:30 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=messenger_server, password=****, autocommit=true, release_mode=auto}
+2017-06-26 23:29:30 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-06-26 23:29:30 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2017-06-26 23:29:30 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-06-26 23:29:30 WARN  EntityManagerFactoryRegistry:80 - HHH000436: Entity manager factory name (JavaMessenger) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2017-06-26 23:29:33 INFO  MessengerClient:107 - Starting listener thread...
+2017-06-26 23:29:33 INFO  MessengerClient:149 - Tokens: [/login, Kate Kate]
+2017-06-26 23:29:33 INFO  MessengerClient:165 - LoginMessage{name='Kate', pass='Kate'}
+2017-06-26 23:29:33 INFO  BinaryProtocol:44 - encoded (length 316): LoginMessage{name='Kate', pass='Kate'}
+2017-06-26 23:29:33 INFO  BinaryProtocol:23 - decoding length: 316
+2017-06-26 23:29:33 INFO  BinaryProtocol:27 - decoded: LoginMessage{name='Kate', pass='Kate'}
+2017-06-26 23:29:33 INFO  BinaryProtocol:44 - encoded (length 662): StatusMessage{message='Kate,5,4,6,1', statusCode=OK, reason=LOGIN}
+2017-06-26 23:29:33 INFO  BinaryProtocol:23 - decoding length: 662
+2017-06-26 23:29:33 INFO  BinaryProtocol:27 - decoded: StatusMessage{message='Kate,5,4,6,1', statusCode=OK, reason=LOGIN}
+2017-06-26 23:29:33 INFO  MessengerClient:133 - NetMessage received: StatusMessage{message='Kate,5,4,6,1', statusCode=OK, reason=LOGIN}
+2017-06-26 23:29:38 INFO  MessengerClient:149 - Tokens: [/leavechat, alex_eva]
+2017-06-26 23:29:38 INFO  MessengerClient:165 - track.messenger.messages.LeaveChatMessage@c6da8bb
+2017-06-26 23:29:38 INFO  BinaryProtocol:44 - encoded (length 419): track.messenger.messages.LeaveChatMessage@c6da8bb
+2017-06-26 23:29:38 INFO  BinaryProtocol:23 - decoding length: 419
+2017-06-26 23:29:38 INFO  BinaryProtocol:27 - decoded: track.messenger.messages.LeaveChatMessage@79627a56
+2017-06-26 23:30:07 INFO  BinaryProtocol:44 - encoded (length 662): StatusMessage{message='Success', statusCode=OK, reason=LEAVE_CHAT}
+2017-06-26 23:30:07 INFO  BinaryProtocol:23 - decoding length: 662
+2017-06-26 23:30:07 INFO  BinaryProtocol:27 - decoded: StatusMessage{message='Success', statusCode=OK, reason=LEAVE_CHAT}
+2017-06-26 23:30:07 INFO  MessengerClient:133 - NetMessage received: StatusMessage{message='Success', statusCode=OK, reason=LEAVE_CHAT}
+2017-06-26 23:30:07 INFO  StatusProcessor:53 - Chat was left
